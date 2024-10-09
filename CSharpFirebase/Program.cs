@@ -62,8 +62,7 @@ namespace CSharpFirebase
 
             try
             {
-                // Defina sua API_KEY do Firebase
-                string apiKey = "AIzaSyAoZSQmCA3c5WhYTkh9pUHbuvi2Nxe3hZc";
+                string apiKey = "coloque sua api";
                 var client = new HttpClient();
                 var requestUri = $"https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key={apiKey}";
 
